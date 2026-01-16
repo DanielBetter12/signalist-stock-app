@@ -1,12 +1,7 @@
-import React from 'react';
 import Link from "next/link";
 
-interface FooterLinkProps {
-    text?: string,
-    linkText?: string
-}
 
-const FooterLink = ({text, linkText, href}: FooterLinkProps) => {
+const FooterLink = ({ text, linkText, href }: FooterLinkProps) => {
     return (
         <div className='text-center pt-4'>
             <p className="text-sm text-gray-500">
@@ -19,4 +14,4 @@ const FooterLink = ({text, linkText, href}: FooterLinkProps) => {
     );
 };
 
-export default FooterLink;
+export default FooterLink
